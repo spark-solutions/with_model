@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
 
   spec.required_ruby_version = '>= 2.1'
 
-  spec.add_dependency 'activerecord', '>= 4.2', '< 6.0'
+  # spec.add_dependency 'activerecord', '>= 4.2', '< 6.0' # temporary hack to make it work with 5.2.0.beta
 
   spec.add_development_dependency 'bundler', '~> 1.0'
   spec.add_development_dependency 'codeclimate-test-reporter'
